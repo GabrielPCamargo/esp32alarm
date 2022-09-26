@@ -42,12 +42,12 @@ static const char *TAG3 = "Sending sendMessage";
 #define ESP_MAXIMUM_RETRY  10
 
 /*Telegram configuration*/
-#define TOKEN "5304416842:AAEGz4IKta8EQhQRRn3xSyfrLxh90aTp47Q"
+#define TOKEN "token"
 char url_string[512] = "https://api.telegram.org/bot";
 // Using in the task strcat(url_string,TOKEN)); the main direct from the url will be in url_string
 //The chat id that will receive the message
-#define chat_ID1 "1358499281"
-#define chat_ID2 "alarmeesp32_bot"
+#define chat_ID1 "id"
+#define chat_ID2 "username"
 #define INTERRUPTION_PIN 32
 
 /* FreeRTOS event group to signal when we are connected*/
